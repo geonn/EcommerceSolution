@@ -1,0 +1,4 @@
+<Alloy>
+	<!-- Default App Window -->
+	<Require id="index" src="slideshow"/>
+</Alloy>

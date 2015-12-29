@@ -1,0 +1,316 @@
+/*
+
+This is your global styles file. Selectors and rules you define
+here will be applied throughout your app. However, these rules
+have the lowest priority of any style settings.
+
+For more information, see the "Style Priorities" section of
+http://docs.appcelerator.com/titanium/latest/#!/guide/Alloy_Styles_and_Themes
+
+For example, the following would apply to all labels, windows,
+and text fields (depending on platform) in your app unless you
+overrode the settings with other TSS, XML, or JS settings:
+
+'Label[platform=android]': {
+	color: '#000' // all platforms except Android default to black
+}
+
+'TextField[platform=android]': {
+	height: Ti.UI.SIZE //
+}
+
+*/
+
+'Label': {
+	color: '#2a363a',
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	font: {
+		fontFamily: 'Lato-Regular',
+		fontSize: 12
+	}
+},
+
+"Actionbar":{
+	backgroundColor: "#323136",
+},
+
+'Window': {
+    backgroundColor: '#ebebeb', // white background instead of default transparent
+    titleAttributes:  {
+        color: "#ffffff"
+   },
+   navBarHidden: true,
+   font: {
+		fontFamily: 'Lato-Regular',
+	}
+},
+
+'Window[platform=android]': {
+    modal: false, // make android windows all heavyweight
+    navBarHidden: true,
+    fullscreen: true,
+},
+
+'TextField': {
+    height: 40,
+	borderColor: "#a5a5a5",
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	verticalAlign: Titanium.UI.TEXT_VERTICAL_ALIGNMENT_CENTER,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
+	backgroundColor: "#ffffff",
+	width: Titanium.UI.FILL,
+	left: 10,
+	right: 10,
+	top: 10,
+	font: {
+		fontFamily: 'Lato-Regular'
+	}
+},
+
+"ImageView":{
+	preventDefaultImage: true
+},
+
+'TableView':{
+	contentHeight: Ti.UI.SIZE,
+	contentWidth: Ti.UI.FILL,	
+},
+
+"TabGroup":{
+	tabHeight: '100dp',
+	tabsBackgroundColor: "black"
+},
+
+".small_button":{
+	borderColor: "#75d0cb",
+	backgroundColor: "#ffffff",
+	color: "#75d0cb",
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	font:{
+		fontSize: 14,
+		fontFamily: 'Lato-Regular',
+	}
+}
+
+'.button': {
+	height: 40,
+	borderColor: "#C6C8CA",
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	backgroundColor: "#ED1C24",
+	borderRadius: 6,
+	color: "#ffffff",
+	width: Titanium.UI.FILL,
+	left: 10,
+	right: 10,
+	top: 10,
+	font: {
+		fontFamily: 'Lato-Regular',
+	}
+},
+
+
+
+'.vert':{
+	layout: "vertical"
+},
+
+'.horz':{
+	layout: "horizontal"
+},
+
+'.wfill':{
+	width: Ti.UI.FILL
+},
+
+'.wsize':{
+	width: Ti.UI.SIZE
+},
+
+'.hfill':{
+	height: Ti.UI.FILL
+},
+
+'.hsize':{
+	height: Ti.UI.SIZE
+},
+
+'.padding':{
+	top: 10,
+	left: 10,
+	right: 10,
+	bottom: 10,
+},
+
+'.small-padding':{
+	top: 5,
+	left: 5,
+	right: 5,
+	bottom: 5,
+},
+
+".padding-top":{
+	top: 10
+},
+
+".padding-left":{
+	left: 10
+},
+
+".padding-right":{
+	right: 10
+},
+
+".padding-bottom":{
+	bottom: 10
+}, 
+
+'.box':{
+	borderColor: "#a5a5a5",
+	backgroundColor: "#ffffff",
+},
+
+'.font_big':{
+	font:{
+		fontSize: 18
+	}
+},
+
+".rounded":{
+	borderRadius: 4
+},
+
+".bottom":{
+	bottom: 0
+},
+
+".top":{
+	top: 0
+},
+
+".right":{
+	right: 0
+},
+
+".left":{
+	left: 0
+},
+
+".h1":{
+	font:{
+		fontSize: 36,
+		fontFamily: 'Lato-Light',
+	}
+},
+
+".h2":{
+	font:{
+		fontSize: 30,
+		fontFamily: 'Lato-Light',
+	}
+},
+
+".h3":{
+	font:{
+		fontSize: 24,
+		fontFamily: 'Lato-Light',
+	}
+},
+
+".h4":{
+	font:{
+		fontSize: 18,
+		fontFamily: 'Lato-Light',
+	},
+},
+
+".h5":{
+	font:{
+		fontSize: 14,
+		fontFamily: 'Lato-Light',
+	}
+},
+
+".h6":{
+	font:{
+		fontSize: 12,
+		fontFamily: 'Lato-Light',
+	}
+},
+
+".normal-text":{
+	font:{
+		fontSize: 14
+	}
+},
+
+".small-text":{
+	font:{
+		fontSize: 10
+	}
+},
+
+".large-text":{
+	font:{
+		fontSize: 18
+	}
+},
+
+'.font_light_grey':{
+	color: "#a0a9ae "
+},
+
+".black-line":{
+	backgroundColor: "#000",
+	width: Ti.UI.FILL,
+	height: 1	
+},
+
+".gray-line":{
+	backgroundColor: "#d2d3ce",
+	width: Ti.UI.FILL,
+	height: 1	
+},
+ 
+".white-line":{
+	backgroundColor: "#fff",
+	width: Ti.UI.FILL,
+	height: 1	
+},
+
+".bold":{
+	font: {
+		fontFamily: 'Lato-Regular',
+	}
+},
+
+".white":{
+	color: "#ffffff"
+}
+
+".shadow":{
+	backgroundImage: "/images/transparent-bg.png",
+}
+
+".transaprent-bg":{
+	backgroundImage: "/images/transparent-background.png"
+}
+
+".conthsize":{
+	contentHeight: Ti.UI.SIZE
+}
+
+".conthfill":{
+	contentHeight: Ti.UI.FILL
+}
+
+".contwsize":{
+	contentWidth: Ti.UI.SIZE
+}
+
+".contwfill":{
+	contentWidth: Ti.UI.FILL
+}
+

@@ -1,0 +1,48 @@
+<Alloy>
+	<Window class="container" barColor="#323136" id="win" title="News" navBarHidden="false">
+	<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
+	<View id="image_container" backgroundColor="#000" class="wfill hfill">
+    	
+    </View>
+    <ImageView class="wfill hfill" image="/images/gradient-bg.png"></ImageView>
+    <View class="wfill hfill vert">
+	    <ScrollableView id="slogan" class="wfill" height="85%" pagingControlColor="transparent" showPagingControl="true" disableBounce="true">
+	    	<View class="wfill hfill" layout="composite">
+	    		<View class="wfill hsize" bottom="0">
+		    		<View class="wfill hsize padding vert">
+		    			<Label class="wfill hsize h4 white" textAlign="center">Welcome,</Label>
+		    			<Label class="wfill hsize h5 white" textAlign="center">Pando is a freecycle place for giveaway and adopt with a friendly community</Label>
+		    		</View>
+	    		</View>
+	    	</View>
+	    	<View class="wfill hfill" layout="composite">
+	    		<View class="wfill hsize" bottom="0">
+		    		<View class="wfill hsize padding vert">
+		    			<Label class="wfill hsize h4 white" textAlign="center">Snap to Donate, Chat to Adopt</Label>
+		    			<Label class="wfill hsize h5 white" textAlign="center">Let us reuse and keep useful stuffs away from landfill</Label>
+		    		</View>
+	    		</View>
+	    	</View>
+	    	<View class="wfill hfill">
+	    		<View class="wfill hsize" bottom="0">
+		    		<View class="wfill hsize padding vert">
+		    			<Label class="wfill hsize h4 white" textAlign="center">Giving away as Easy as 123</Label>
+		    			<Label class="wfill hsize h5 white" textAlign="center">Snap a picture and describe your preloved, start select your adopter</Label>
+		    		</View>
+	    		</View>
+	    	</View>
+	    	<View class="wfill hfill">
+	    		<View class="wfill hsize" bottom="0">
+		    		<View class="wfill hsize padding vert" bottom="20">
+		    			<Label class="wfill hsize h4 white" textAlign="center">Thanks Giving Credit</Label>
+		    			<Label class="wfill hsize h5 white" textAlign="center">Arrange your pick up and scan your credit yo your donor.</Label>
+		    		</View>
+	    		</View>
+	    	</View>
+	    </ScrollableView>
+	    <View class="wfill hsize">
+	    	<Button width="60%" onClick="do_continue" class="custom_button" title="Continue"></Button>
+	    </View>
+    </View>
+    </Window>
+</Alloy>

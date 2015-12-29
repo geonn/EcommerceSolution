@@ -1,0 +1,8 @@
+<Alloy>
+	<Window class="container" barColor="#75d0cb" id="win" title="Demo" navBarHidden="false">
+	<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
+	<ScrollView class="wfill hfill vert conthsize contwfill">
+    	
+    </ScrollView>
+    </Window>
+</Alloy>

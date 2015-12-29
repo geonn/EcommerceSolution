@@ -1,0 +1,26 @@
+<Alloy>
+	<NavigationWindow platform="ios" id="navWin">
+		<Window title="Pando" color="#ffffff" id="win">
+			<View class="wfill hfill vert"  backgroundImage="/images/home_background.jpg">
+				<ImageView image="/images/logo.png" top="80" width="50%" />
+				<TextField id="username" hintText="Username" top="80"></TextField>
+				<TextField id="password" hintText="Password" passwordMask="true"></TextField>
+				<Button onClick="do_login" class="button" title="Login"></Button>
+				<Button onClick="do_signup" class="button" backgroundColor="#5375BD" title="Register"></Button>
+			</View>
+		</Window>
+	</NavigationWindow>
+	<Window title="Pando" color="#ffffff" id="win" platform="android">
+		<View layout="vertical" id="loadingBar" height="0" width="120" borderRadius="15" backgroundColor="#2E2E2E" >
+	        <ActivityIndicator id="activityIndicator" />
+	    	<Label top="5" text="Loading" color="#ffffff" />
+		</View>
+		<ScrollView class="wfill hfill vert" contentHeight="Ti.UI.SIZE" contentWidth="Ti.UI.FILL" backgroundImage="/images/home_background.jpg">
+			<ImageView image="/images/full_logo.png"  top="10" width="50%" />
+			<TextField id="username" hintText="Username"></TextField>
+			<TextField id="password" hintText="Password" passwordMask="true"></TextField>
+			<Button onClick="do_login" class="button" title="Login"></Button>
+			<Button onClick="do_signup" class="button" backgroundColor="#5375BD" title="Register"></Button>
+		</ScrollView>
+	</Window>
+</Alloy>

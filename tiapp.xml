@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.geonn.ecommerce</id>
+    <name>EcommerceSolution</name>
+    <version>1.0</version>
+    <publisher>HatsuneMiku</publisher>
+    <url/>
+    <description/>
+    <copyright>2015 by HatsuneMiku</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>dca8c2d2-e9e0-4dc6-9999-6c5d18128899</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">true</target>
+        <target device="windows">false</target>
+    </deployment-targets>
+    <sdk-version>5.1.0.v20150922160425</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">568232edfdc26c4a50c484ed</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">Aqbpzswl9iHhTsbuZbR0OyLmbwVZIZZF</property>
+    <property name="acs-oauth-key-development" type="string">knK4hoIWJdm2LTg080UVAEGwMsJUKW9f</property>
+    <property name="acs-api-key-development" type="string">SLl3iSbbteFbyIin7qnJbtREP7fwb41m</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">N34i2OoZRx6QsMs7rR</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">ynQKllJAavpqDIG6rwzhe4HewBpxd7QB</property>
+    <property name="acs-oauth-key-production" type="string">MllRztIR24AXBW5m79e0GVVsAAf0Kgxv</property>
+    <property name="acs-api-key-production" type="string">xpFUjmksqXoIDewTL1RN4vu2ZKPy6S1g</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">DH6FZkuSHQ5Wt13Aao</property>
+    <property name="appc-org-id" type="string">100026224</property>
+    <property name="appc-creator-user-id" type="string">37d3be16-02d7-4f77-9c31-7aadd8bc5011</property>
+</ti:app>

@@ -1,0 +1,7 @@
+<Alloy>
+	<View layout="vertical" id="loadingBar" height="120" width="120" borderRadius="15" backgroundColor="#2E2E2E" >
+        <ActivityIndicator top="30" left="30" width="60" id="activityIndicator" style="Ti.UI.iPhone.ActivityIndicatorStyle.BIG" platform="ios" />
+        <ActivityIndicator top="0" left="30" width="60" id="activityIndicator" style="Ti.UI.ActivityIndicatorStyle.BIG" platform="android" />
+    	<Label class="wfill" textAlign="center" top="5" text="Loading" color="#ffffff" />
+	</View>
+</Alloy>

@@ -1,0 +1,20 @@
+<Alloy>
+	<Window title="Register" id='signUpWin' navBarHidden="false">
+		<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
+		<ScrollView class="wfill hfill vert" backgroundImage="/images/home_background.jpg" scrollType="vertical">
+			<View class="padding wfill hsize box" backgroundColor="#ffffff">
+				<View class="padding wfill hsize vert">
+					<Label class="h5 wfill hsize bold">Please upload your photo</Label>
+					<ImageView id="item_image" onClick="loadPhoto" image="/images/icons/icon_take_photo_nobg.png" top="10" width="50%" />
+				</View>
+			</View>
+			<TextField color="#000000" id="fullname" hintText="Fullname"></TextField>
+			<TextField color="#000000" id="mobile" hintText="Mobile Number"></TextField>
+			<TextField color="#000000" id="email" hintText="Email Address"></TextField>
+			<TextField color="#000000" id="username" hintText="Username"></TextField>
+			<TextField color="#000000" id="password" hintText="Password" passwordMask="true"></TextField>
+			<TextField color="#000000" id="confirm" hintText="Confirm Password" passwordMask="true"></TextField>
+			<Button onClick="doRegister" backgroundColor="#5375BD" class="button" title="Register"></Button>
+		</ScrollView>
+	</Window>
+</Alloy>

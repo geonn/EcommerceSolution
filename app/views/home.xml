@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="win" theme="Theme.NoActionBar" title="Home" navBarHidden="true" fullscreen="false">
+    <View class='wsize wfill vert' top="40">
+    	<ImageView image="/images/logo.png" width="50%"/>
+    	<Button class="button" onClick="navToDemo">New Page to Demo</Button> 
+    	<Button class="button" onClick="doLogout">Logout</Button> 	
+    </View>
+    </Window>
+</Alloy>

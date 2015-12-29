@@ -1,0 +1,9 @@
+<Alloy>
+	<!-- Default App Window -->
+	<Require id="index" src="home" platform="android" /> 
+	
+    <!-- iOS Window -->
+    <NavigationWindow id="nav" platform="ios" class="container">
+		<Require src="home" />
+    </NavigationWindow>
+</Alloy>
