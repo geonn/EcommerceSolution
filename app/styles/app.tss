@@ -313,4 +313,3 @@ overrode the settings with other TSS, XML, or JS settings:
 ".contwfill":{
 	contentWidth: Ti.UI.FILL
 }
-

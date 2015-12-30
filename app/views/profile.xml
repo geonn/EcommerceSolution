@@ -1,0 +1,17 @@
+<Alloy>
+	<Window class="container" barColor="#75d0cb" id="win" title="Profile" navBarHidden="false">
+	<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
+	<RightNavButton>
+            <Button id="edit" onClick="doEdit" title="Edit" />
+    	</RightNavButton>
+	<View id="viewall" class="wfill hfill padding vert">
+		<ImageView id="image1" image="/images/icons/icon_take_photo_nobg.png" class="wfill" height="200" backgroundColor="black" />
+		<Label id="labelname" text="Name : Tan Chor Wai" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" class="wfill h4 padding" />
+		<Label id="labelname" text="Address : 25,Jalan Hujan Emas 1, Taman OUG, 46700 Kuala Lumpur" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" class="wfill h4" />
+		<Label id="labelnum" text="H/P No. : 012-345678912" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" class="wfill h4" top="10"  />
+		<Label id="labelnum" text="D.O.B : 14/02/1994" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" class="wfill h4" top="10"  />
+		<Label id="labelnum" text="Gender : Male" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" class="wfill h4" top="10"  />
+		<Button id="button" onClick="doChangePass" title="Change Password" class="button" />
+	</View>
+    </Window>
+</Alloy>

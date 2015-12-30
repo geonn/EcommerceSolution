@@ -5,6 +5,18 @@ function navToDemo(){
 	Alloy.Globals.Navigator.open("demo");
 }
 
+function navToStrShop(){
+	Alloy.Globals.Navigator.open("category");
+};
+
+function navToOrder(){
+	Alloy.Globals.Navigator.open("order_history");
+};
+
+function navToProfile(){
+	Alloy.Globals.Navigator.open("profile");
+};
+
 function doLogout(){
 	var user = require("user");
 	user.logout(function(){

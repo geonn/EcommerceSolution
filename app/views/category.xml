@@ -1,0 +1,15 @@
+<Alloy>
+	<Window class="container" barColor="#75d0cb" id="win" title="Category" navBarHidden="false">
+	<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
+	<View class="wfill hfill vert">
+		<View class="wfill hsize horz">
+	    	<Button class="button" onClick="navToSport" width="130" height="100" left="20">Sport</Button> 
+	    	<Button class="button" onClick="navToSport" width="130" height="100">Mobile</Button> 	
+    	</View>
+    	<View class="wfill hsize horz">
+	    	<Button class="button" onClick="navToSport" width="130" height="100" left="20">Fashion</Button> 
+	    	<Button class="button" onClick="navToSport" width="130" height="100">Books</Button> 
+    	</View>	
+	</View>
+    </Window>
+</Alloy>

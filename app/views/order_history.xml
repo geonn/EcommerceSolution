@@ -1,0 +1,21 @@
+<Alloy>
+	<Window class="vert" barColor="#75d0cb" id="win" title="Order History" navBarHidden="false">
+	<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
+	<Label text="Date: DD/MM/YY" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" class="wfill h4" top="10" left="20" />
+	<View width="200" height="Ti.UI.SIZE" class="vert padding" borderWidth="1" onClick="navToRcpID">
+		<Label text=" Receipt ID       RM0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" class="wfill h5" height="30" />
+		<View width="200" height="1" backgroundColor="black"></View>
+		<Label text=" Receipt ID       RM0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" class="wfill h5" height="30" />
+	</View>
+	<Label text="Date: DD/MM/YY" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" class="wfill h4" left="10"  left="20" />
+	<Label text=" Receipt ID       RM0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" class="wfill h5 padding" borderWidth="1"  width="200" height="30" left="10" onClick="navToRcpID" />
+	<Label text="Date: DD/MM/YY" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" class="wfill h4" left="20" />
+	<View width="200" height="Ti.UI.SIZE" class="vert padding" borderWidth="1" onClick="navToRcpID">
+		<Label text=" Receipt ID       RM0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" class="wfill h5" height="30" />
+		<View width="200" height="1" backgroundColor="black"></View>
+		<Label text=" Receipt ID       RM0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" class="wfill h5" height="30" />
+	</View>
+	<Label text="Date: DD/MM/YY" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" class="wfill h4" left="10"  left="20" />
+	<Label text=" Receipt ID       RM0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" class="wfill h5 padding" borderWidth="1"  width="200" height="30" left="10" onClick="navToRcpID" />
+    </Window>
+</Alloy>

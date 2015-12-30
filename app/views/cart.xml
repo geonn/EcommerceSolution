@@ -1,0 +1,17 @@
+<Alloy>
+	<Window class="vert" barColor="#75d0cb" id="win" title="Your Cart" navBarHidden="false">
+	<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
+	<View class="wfill horz" height="40" top="10">
+		<Label class="h3" text="Item" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" width="100" left="10" right="70"></Label>
+		<Label class="h3" text="Quantity" textAlign="Ti.UI.TEXT_ALIGNMENT_RIGHT" width="130" right="10" ></Label>
+	</View>
+	<View class="wfill" height="1" backgroundColor="black"></View>
+	<TableView id="tableview" class="wfill" height="300"></TableView>
+	<View class="wfill" height="1" backgroundColor="black"></View>
+	<View class="wfill horz" height="40" top="10">
+		<Label class="h4" text="Total" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" width="100" left="20" right="50"></Label>
+		<Label class="h4" text="RM0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_RIGHT" width="130" right="10" ></Label>
+	</View>
+	<Button class="button" onClick="navToCheckOut" width="100" height="50" left="110">Check Out</Button> 
+    </Window>
+</Alloy>

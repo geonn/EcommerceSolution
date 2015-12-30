@@ -2,8 +2,14 @@
 	<Window id="win" theme="Theme.NoActionBar" title="Home" navBarHidden="true" fullscreen="false">
     <View class='wsize wfill vert' top="40">
     	<ImageView image="/images/logo.png" width="50%"/>
-    	<Button class="button" onClick="navToDemo">New Page to Demo</Button> 
-    	<Button class="button" onClick="doLogout">Logout</Button> 	
+    	<View class="wfill hsize horz">
+	    	<Button class="button" onClick="navToStrShop" width="130" height="100" left="20">Start Shopping</Button> 
+	    	<Button class="button" onClick="navToOrder" width="130" height="100">Order</Button> 	
+    	</View>
+    	<View class="wfill hsize horz">
+	    	<Button class="button" onClick="navToProfile" width="130" height="100" left="20">Profile</Button> 
+	    	<Button class="button" onClick="doLogout" width="130" height="100">Logout</Button> 
+    	</View>	
     </View>
     </Window>
 </Alloy>

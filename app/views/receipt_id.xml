@@ -1,0 +1,24 @@
+<Alloy>
+	<Window barColor="#75d0cb" id="win" title="Receipt ID" navBarHidden="false">
+	<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
+	<View class="hfill wfill padding vert">
+		<Label text="Status: Delivered" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" class="h4 rounded" borderWidth="1" width="160" />
+		<View class="horz" height="30" width="Ti.UI.FILL"  top="10">
+			<Label text="Vendor: ABC Bhd" class="h4 rounded" width="180" right="20" borderWidth="1" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"/>
+			<Label text="DD/MM/YY" class="h4 rounded" width="100" borderWidth="1" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"/>
+		</View>
+	<Button id="button" onClick="doPayment" title="Payment Method" class="button" />
+		<View width="200" height="Ti.UI.SIZE" class="vert padding" borderWidth="1" left="50" top="20">
+			<Label text=" Product A     2     RM0000.00 " textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" class="wfill h5" height="30" />
+			<View width="200" height="1" backgroundColor="black"></View>
+			<Label text=" Product B     1     RM0000.00 " textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" class="wfill h5" height="30" />
+			<View width="200" height="1" backgroundColor="black"></View>
+			<Label text=" Product C     5     RM0000.00 " textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" class="wfill h5" height="30" />
+			<View width="200" height="1" backgroundColor="black"></View>
+			<Label text=" Product D     6     RM0000.00 " textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" class="wfill h5" height="30" />
+		</View>
+	<Label text="Additional Charges: Courier Fee = RM 00.00 " class="h5 wfill rounded" height="30" top="10" borderWidth="1" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" />
+	<Label text="Total Price : RM 0000.00 " class="h4 wfill rounded" height="30" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="30" borderWidth="1" />
+	</View>
+    </Window>
+</Alloy>

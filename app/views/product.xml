@@ -1,0 +1,44 @@
+<Alloy>
+	<Window class="vert" barColor="#75d0cb" id="win" title="Product" navBarHidden="false">
+	<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
+	<View class="wfill hsize horz" top="10" onClick="navToItem">
+		<View class="vert" height="130" width="100" left="15" left="30">
+			<ImageView image="/images/icons/icon_take_photo_nobg.png" with="90" height="90" ></ImageView>
+			<Label class="h5" text="Product A" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" ></Label>
+			<Label class="h5" text="RM 0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"></Label>
+		</View>
+		<View class="vert" height="130" width="100" left="60">
+			<ImageView image="/images/icons/icon_take_photo_nobg.png" with="90" height="90"></ImageView>
+			<Label class="h5" text="Product B" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"></Label>
+			<Label class="h5" text="RM 0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"></Label>
+		</View>
+	</View>
+	
+	<View class="wfill hsize horz" top="10" onClick="navToItem">
+		<View class="vert" height="130" width="100" left="15" left="30">
+			<ImageView image="/images/icons/icon_take_photo_nobg.png" with="90" height="90" ></ImageView>
+			<Label class="h5" text="Product C" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" ></Label>
+			<Label class="h5" text="RM 0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"></Label>
+		</View>
+		<View class="vert" height="130" width="100" left="60">
+			<ImageView image="/images/icons/icon_take_photo_nobg.png" with="90" height="90"></ImageView>
+			<Label class="h5" text="Product D" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"></Label>
+			<Label class="h5" text="RM 0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"></Label>
+		</View>
+	</View>
+	
+	<View class="wfill hsize horz" top="10" onClick="navToItem">
+		<View class="vert" height="130" width="100" left="15" left="30">
+			<ImageView image="/images/icons/icon_take_photo_nobg.png" with="90" height="90" ></ImageView>
+			<Label class="h5" text="Product E" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" ></Label>
+			<Label class="h5" text="RM 0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"></Label>
+		</View>
+		<View class="vert" height="130" width="100" left="60">
+			<ImageView image="/images/icons/icon_take_photo_nobg.png" with="90" height="90"></ImageView>
+			<Label class="h5" text="Product F" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"></Label>
+			<Label class="h5" text="RM 0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"></Label>
+		</View>
+	</View>
+	
+    </Window>
+</Alloy>
