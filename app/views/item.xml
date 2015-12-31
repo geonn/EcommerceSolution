@@ -1,19 +1,15 @@
 <Alloy>
 	<Window class="vert" barColor="#75d0cb" id="win" title="Item" navBarHidden="false">
 	<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
-	<View class="wfill horz" height="150">
-		<View class="vert" width="130" height="50" top="50" left="10">
-			<Label class="h4" text="Product A" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" ></Label>
-			<Label class="h4" text="RM 0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"></Label>
-		</View>
-		<ImageView image="/images/icons/icon_take_photo_nobg.png" with="120" height="120" left="50" top="10" ></ImageView>
-	</View>
-	<View class="wfill" height="1" backgroundColor="black"></View>
+	<ImageView image="/images/category/toys" class="wfill" height="150" top="10" ></ImageView>
+	<View class="wfill" height="1" top="10" backgroundColor="black"></View>
 	<Label class="h4 wfill" height="50" text="Availability: IN STOCK" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"></Label>
 	<View class="wfill" height="1" backgroundColor="black"></View>
-	<Label class="h5 wfill" height="50" text="Color: Red Blue Yellow Orange White Black" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"></Label>
+	<Label class="h4" text="Product A" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="10"></Label>
+	<Label class="h4" text="RM 0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"></Label>
+	<Label class="h5 wfill" height="40" text="Color: Red Blue Yellow Orange White Black" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"></Label>
 	<Label class="h5 wfill" height=Ti.UI.SIZE text="Description : This is made of high quality material. It is worth the money. Suitable for male or female." left="20"></Label>
-	<View class="wfill horz" height="70" left="80">
+	<View class="wfill horz" height="60" left="80">
 		<Label class="h4" text="Quantity : " width="80" height="60" ></Label>
 		<TextField width="60" height="30" top="15"></TextField>
 	</View>

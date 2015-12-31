@@ -13,7 +13,7 @@ var rowdata = [];
 	for (i=0; i< 4; i++){
 	
 		var image = Ti.UI.createImageView({
-	  		image:'/images/icons/icon_take_photo_nobg.png',
+	  		image:'/images/category/book',
 	  		width: 60,
 	  		height: 60,
 	  		left: 10
