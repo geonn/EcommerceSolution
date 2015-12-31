@@ -1,7 +1,7 @@
 <Alloy>
 	<Window class="vert" barColor="#75d0cb" id="win" title="Category" navBarHidden="false">
 	<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
-	<SearchBar id="search" barColor="#000" showCancel="true" height="40" class="wfill" />
+	<SearchBar id="search" barColor="white" showCancel="true" height="40" class="wfill" />
 	<ScrollView id="scrollView" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="true" height="Ti.UI.FILL" width="Ti.UI.FILL">
 	<View class="wfill hfill horz">
 		

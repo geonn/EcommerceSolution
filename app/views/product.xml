@@ -4,17 +4,17 @@
 	<RightNavButton>
             <Button id="edit" onClick="navToCart" title="Cart" />
     </RightNavButton>
-	<SearchBar id="search" barColor="#000" showCancel="true" height="40" class="wfill" />
+	<SearchBar id="search" barColor="white" showCancel="true" height="40" class="wfill" />
 	<ScrollView id="scrollView" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="true" height="Ti.UI.FILL" width="Ti.UI.FILL">
 	<View class="wfill hfill vert">
 		
-		<View class="wfill hsize horz" top="10" onClick="navToItem">
-			<View class="vert" height="170" width="145"  left="10" borderWidth="2">
+		<View class="wfill hsize horz" top="10">
+			<View class="vert" height="170" width="145"  left="10" borderWidth="2"  onClick="navToItem">
 				<View width="Ti.UI.FILL" height="110" backgroundImage="/images/category/mobile.png"></View>
 				<Label class="h5" text="Product A" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="5" ></Label>
 				<Label class="h5" text="RM 0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="5"></Label>
 			</View>
-			<View class="vert" height="170" width="145" left="10" borderWidth="2">
+			<View class="vert" height="170" width="145" left="10" borderWidth="2"  onClick="navToItem">
 				<View width="Ti.UI.FILL" height="110" backgroundImage="/images/category/baby.png"></View>
 				<Label class="h5" text="Product B" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="5" ></Label>
 				<Label class="h5" text="RM 0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="5"></Label>
@@ -22,12 +22,12 @@
 		</View>
 		
 		<View class="wfill hsize horz" top="10" onClick="navToItem">
-			<View class="vert" height="170" width="145"  left="10" borderWidth="2">
+			<View class="vert" height="170" width="145"  left="10" borderWidth="2"  onClick="navToItem">
 				<View width="Ti.UI.FILL" height="110" backgroundImage="/images/category/man.png"></View>
 				<Label class="h5" text="Product A" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="5" ></Label>
 				<Label class="h5" text="RM 0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="5"></Label>
 			</View>
-			<View class="vert" height="170" width="145" left="10" borderWidth="2">
+			<View class="vert" height="170" width="145" left="10" borderWidth="2"  onClick="navToItem">
 				<View width="Ti.UI.FILL" height="110" backgroundImage="/images/category/cases.png"></View>
 				<Label class="h5" text="Product B" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="5" ></Label>
 				<Label class="h5" text="RM 0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="5"></Label>
@@ -35,12 +35,12 @@
 		</View>>
 		
 		<View class="wfill hsize horz" top="10" onClick="navToItem">
-			<View class="vert" height="170" width="145"  left="10" borderWidth="2">
+			<View class="vert" height="170" width="145"  left="10" borderWidth="2"  onClick="navToItem">
 				<View width="Ti.UI.FILL" height="110" backgroundImage="/images/category/book.png"></View>
 				<Label class="h5" text="Product A" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="5" ></Label>
 				<Label class="h5" text="RM 0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="5"></Label>
 			</View>
-			<View class="vert" height="170" width="145" left="10" borderWidth="2">
+			<View class="vert" height="170" width="145" left="10" borderWidth="2"  onClick="navToItem">
 				<View width="Ti.UI.FILL" height="110" backgroundImage="/images/category/women.png"></View>
 				<Label class="h5" text="Product B" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="5" ></Label>
 				<Label class="h5" text="RM 0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="5"></Label>
