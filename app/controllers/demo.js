@@ -64,7 +64,7 @@ function render_friends_list(){
  * */
 function refresh(){
 	var maximumImageCount = 4;
-	var MediaPickerModule = require('/MediaPicker').MediaPicker;
+	var MediaPickerModule = require('MediaPicker').MediaPicker;
 	var MediaPicker = new MediaPickerModule();
 	//MediaPicker.show(callback, 4, 'photos', 'Choose up to four images! Longlick image for preview.');
 	MediaPicker.show(function(e){alert("callback");}, 4, "photos", "message");
