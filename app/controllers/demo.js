@@ -63,6 +63,11 @@ function render_friends_list(){
  	Refresh
  * */
 function refresh(){
+	var maximumImageCount = 4;
+	var MediaPickerModule = require('/MediaPicker').MediaPicker;
+	var MediaPicker = new MediaPickerModule();
+	//MediaPicker.show(callback, 4, 'photos', 'Choose up to four images! Longlick image for preview.');
+	MediaPicker.show(function(e){alert("callback");}, 4, "photos", "message");
 	
 }
 
@@ -76,6 +81,7 @@ function closeWindow(){
 function init(){
 	$.win.add(loading.getView());
 	refresh();
+	
 }
 
 init();

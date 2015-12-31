@@ -17,6 +17,10 @@ function navToProfile(){
 	Alloy.Globals.Navigator.open("profile");
 };
 
+function navToDemo(){
+	Alloy.Globals.Navigator.open("demo");
+}
+
 function doLogout(){
 	var user = require("user");
 	user.logout(function(){

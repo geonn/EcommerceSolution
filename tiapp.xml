@@ -48,6 +48,9 @@
         <theme>default</theme>
     </mobileweb>
     <modules>
+        <module platform="iphone">ti.mediapicker</module>
+        <module platform="android">ti.mediapicker</module>
+        <module platform="iphone">ti.multiaccesslib</module>
         <module platform="commonjs">ti.cloud</module>
     </modules>
     <deployment-targets>

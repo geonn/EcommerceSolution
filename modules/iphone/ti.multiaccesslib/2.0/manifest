@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 2.0
+apiversion: 2
+description: Gives access yo miltiple files in media library in ios.
+author: Krishna Kumar
+license: Specify your license
+copyright: All Rights Reserved.
+
+
+# these should not be edited
+name: media library multi access
+moduleid: ti.multiAccessLib
+guid: 4639e38e-1f62-446f-81dd-e0e6135ae07b
+platform: iphone
+minsdk: 2.1.3.GA
