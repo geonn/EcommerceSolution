@@ -13,7 +13,7 @@ var rowdata = [];
 	for (i=0; i< 4; i++){
 	
 		var image = Ti.UI.createImageView({
-	  		image:'/images/category/book',
+	  		image:'/images/product/womencloth',
 	  		width: 60,
 	  		height: 60,
 	  		left: 10
@@ -59,7 +59,7 @@ var rowdata = [];
 }
 
 function navToCheckOut(){
-	
+	Alloy.Globals.Navigator.open("checkout");
 };
 
 function init(){	

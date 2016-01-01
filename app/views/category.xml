@@ -6,63 +6,63 @@
 	<View class="wfill hfill horz">
 		
 		<View width="50%" height="120"  >
-	    	<Button  class="wfill hfill" backgroundImage="/images/category/sport.png" onClick="navToSport"></Button>
-	    	<ImageView image="/images/transparent-background.png" class="wfill" height="25" top="0"  ></ImageView>
-	    	<Label text="Sport" class="h4" left="10" top="0" color="white" ></Label>
-	    </View>	 
-	    
-	    <View width="50%" height="120"  >
-	    	<Button  class="wfill hfill" backgroundImage="/images/category/mobile.png" onClick="navToSport"></Button>
-	    	<ImageView image="/images/transparent-background.png" class="wfill" height="25" top="0"  ></ImageView>
-	    	<Label text="Mobile" class="h4" left="10" top="0" color="white" ></Label>
-	    </View>
-	    
-	    <View width="50%" height="120"  >
-	    	<Button  class="wfill hfill" backgroundImage="/images/category/book.png" onClick="navToSport"></Button>
-	    	<ImageView image="/images/transparent-background.png" class="wfill" height="25" top="0"  ></ImageView>
-	    	<Label text="Books" class="h4" left="10" top="0" color="white" ></Label>
-	    </View>
-
-		<View width="50%" height="120"  >
-	    	<Button  class="wfill hfill" backgroundImage="/images/category/cases.png" onClick="navToSport"></Button>
-	    	<ImageView image="/images/transparent-background.png" class="wfill" height="25" top="0"  ></ImageView>
-	    	<Label text="Phone Case" class="h4" left="10" top="0" color="white" ></Label>
-	    </View>
-	    
-	    <View width="50%" height="120"  >
-	    	<Button  class="wfill hfill" backgroundImage="/images/category/photo.png" onClick="navToSport"></Button>
-	    	<ImageView image="/images/transparent-background.png" class="wfill" height="25" top="0"  ></ImageView>
-	    	<Label text="Photography" class="h4" left="10" top="0" color="white" ></Label>
-	    </View>
-
-	    <View width="50%" height="120"  >
-	    	<Button  class="wfill hfill" backgroundImage="/images/category/toys.png" onClick="navToSport"></Button>
-	    	<ImageView image="/images/transparent-background.png" class="wfill" height="25" top="0"  ></ImageView>
-	    	<Label text="Toys" class="h4" left="10" top="0" color="white" ></Label>
-	    </View>
-
-	    <View width="50%" height="120"  >
 	    	<Button  class="wfill hfill" backgroundImage="/images/category/man.png" onClick="navToSport"></Button>
 	    	<ImageView image="/images/transparent-background.png" class="wfill" height="25" top="0"  ></ImageView>
-	    	<Label text="For Men" class="h4" left="10" top="0" color="white" ></Label>
-	    </View>
+	    	<Label text="Men Cloths" class="h4" left="10" top="0" color="white" ></Label>
+	    </View>	 
 	    
 	    <View width="50%" height="120"  >
 	    	<Button  class="wfill hfill" backgroundImage="/images/category/women.png" onClick="navToSport"></Button>
 	    	<ImageView image="/images/transparent-background.png" class="wfill" height="25" top="0"  ></ImageView>
-	    	<Label text="For Her" class="h4" left="10" top="0" color="white" ></Label>
-	    </View>
-
-		<View width="50%" height="120"  >
-	    	<Button  class="wfill hfill" backgroundImage="/images/category/baby.png" onClick="navToSport"></Button>
-	    	<ImageView image="/images/transparent-background.png" class="wfill" height="25" top="0"  ></ImageView>
-	    	<Label text="Baby Cloth" class="h4" left="10" top="0" color="white" ></Label>
+	    	<Label text="Women Cloths" class="h4" left="10" top="0" color="white" ></Label>
 	    </View>
 	    
 	    <View width="50%" height="120"  >
-	    	<Button  class="wfill hfill" backgroundImage="/images/category/gym.png" onClick="navToSport"></Button>
+	    	<Button  class="wfill hfill" backgroundImage="/images/category/manbag.png" onClick="navToSport"></Button>
 	    	<ImageView image="/images/transparent-background.png" class="wfill" height="25" top="0"  ></ImageView>
-	    	<Label text="Gym Stuff" class="h4" left="10" top="0" color="white" ></Label>
+	    	<Label text="Men Bags" class="h4" left="10" top="0" color="white" ></Label>
+	    </View>
+
+		<View width="50%" height="120"  >
+	    	<Button  class="wfill hfill" backgroundImage="/images/category/womenbag.png" onClick="navToSport"></Button>
+	    	<ImageView image="/images/transparent-background.png" class="wfill" height="25" top="0"  ></ImageView>
+	    	<Label text="Women Bags" class="h4" left="10" top="0" color="white" ></Label>
+	    </View>
+	    
+	    <View width="50%" height="120"  >
+	    	<Button  class="wfill hfill" backgroundImage="/images/category/menwallet.png" onClick="navToSport"></Button>
+	    	<ImageView image="/images/transparent-background.png" class="wfill" height="25" top="0"  ></ImageView>
+	    	<Label text="Men Wallet" class="h4" left="10" top="0" color="white" ></Label>
+	    </View>
+
+	    <View width="50%" height="120"  >
+	    	<Button  class="wfill hfill" backgroundImage="/images/category/womenwallet.png" onClick="navToSport"></Button>
+	    	<ImageView image="/images/transparent-background.png" class="wfill" height="25" top="0"  ></ImageView>
+	    	<Label text="Women Purse" class="h4" left="10" top="0" color="white" ></Label>
+	    </View>
+
+	    <View width="50%" height="120"  >
+	    	<Button  class="wfill hfill" backgroundImage="/images/category/menshoes.png" onClick="navToSport"></Button>
+	    	<ImageView image="/images/transparent-background.png" class="wfill" height="25" top="0"  ></ImageView>
+	    	<Label text="Men Shoes" class="h4" left="10" top="0" color="white" ></Label>
+	    </View>
+	    
+	    <View width="50%" height="120"  >
+	    	<Button  class="wfill hfill" backgroundImage="/images/category/womenshoes.png" onClick="navToSport"></Button>
+	    	<ImageView image="/images/transparent-background.png" class="wfill" height="25" top="0"  ></ImageView>
+	    	<Label text="Women Shoes" class="h4" left="10" top="0" color="white" ></Label>
+	    </View>
+
+		<View width="50%" height="120"  >
+	    	<Button  class="wfill hfill" backgroundImage="/images/category/mensport.png" onClick="navToSport"></Button>
+	    	<ImageView image="/images/transparent-background.png" class="wfill" height="25" top="0"  ></ImageView>
+	    	<Label text="Men Sports" class="h4" left="10" top="0" color="white" ></Label>
+	    </View>
+	    
+	    <View width="50%" height="120"  >
+	    	<Button  class="wfill hfill" backgroundImage="/images/category/womensport.png" onClick="navToSport"></Button>
+	    	<ImageView image="/images/transparent-background.png" class="wfill" height="25" top="0"  ></ImageView>
+	    	<Label text="Women Sports" class="h4" left="10" top="0" color="white" ></Label>
 	    </View>
 
 	</View>
