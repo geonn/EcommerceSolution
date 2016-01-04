@@ -6,38 +6,15 @@
 	<Label class="wfill h5" height="30" text="Name : Gary Tan" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" left="5"></Label>
 	<Label class="wfill h5 hsize"  		text="Address : 25,Jalan Hujan Emas 1, Taman ABC, 46500 Kuala Lumpur" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" left="5"></Label>
 	<Label class="wfill h5" height="30" text="H/P No. : 016-641 13644" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" left="5"></Label>
-	
 	<Label class="wfill h4" height="30" text="Total Payment" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" backgroundColor="black" color="white" top="10"></Label>
 	<Label class="wfill h5" height="30" text="Subtotal : RM 0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" left="5"></Label>
 	<Label class="wfill h5" height="30" text="Shipping Fee : RM 0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" left="5"></Label>
 	<Label class="wfill h5" height="30" text="Total : RM 0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" left="5"></Label>
-	
 	<Label class="wfill h4" height="30" text="Payment Method" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" backgroundColor="black" color="white" top="10"></Label>
-	<View class="wfill hsize horz">
-		<View width="50%" height="70"  >
-	    	<Button  class="wfill hfill" backgroundImage="/images/payment/visa.png" ></Button>
-	    	<ImageView image="/images/transparent-background.png" class="wfill" height="25" top="0"  ></ImageView>
-	    	<Label text="Credit or Debit Card" class="h5" left="10" top="0" color="white" ></Label>
-	    </View>	 
-	    
-	    <View width="50%" height="70"  >
-	    	<Button  class="wfill hfill" backgroundImage="/images/payment/pp.png" ></Button>
-	    	<ImageView image="/images/transparent-background.png" class="wfill" height="25" top="0"  ></ImageView>
-	    	<Label text="PayPal" class="h5" left="10" top="0" color="white" ></Label>
-	    </View>
-	    
-	    <View width="50%" height="70"  >
-	    	<Button  class="wfill hfill" backgroundImage="/images/payment/bank.png" ></Button>
-	    	<ImageView image="/images/transparent-background.png" class="wfill" height="25" top="0"  ></ImageView>
-	    	<Label text="Online Banking" class="h5" left="10" top="0" color="white" ></Label>
-	    </View>
-
-		<View width="50%" height="70"  >
-	    	<Button  class="wfill hfill" backgroundImage="/images/payment/cod.png" ></Button>
-	    	<ImageView image="/images/transparent-background.png" class="wfill" height="25" top="0"  ></ImageView>
-	    	<Label text="Cash On Delivery" class="h5" left="10" top="0" color="white" ></Label>
-	    </View>
+	<View class="wfill horz" height="80">
+	<ImageView image="/images/payment/visa.png" height="70" width="70" left="5" top="10" right="20"></ImageView>
+	<Label class="wfill h5" text="Credit Card" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" width="auto" ></Label>
 	</View>
-	<Button class="button" title="Confirm" top="10" onClick="navToAlert"></Button>
+	<Button class="button" title="Confirm" top="60" onClick="navToAlert"></Button>
     </Window>
 </Alloy>

@@ -1,0 +1,13 @@
+<Alloy>
+	<Window class="vert" barColor="#75d0cb" id="win" title="Step 2" navBarHidden="false">
+	<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
+	<Label class="wfill h3" text="Total Payment" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" backgroundColor="black" color="white" height="50"></Label>
+	<Label class="wfill h4" text="Subtotal : RM 0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" left="10" top="10"></Label>
+	<Label class="wfill h4" text="Shipping Fee : RM 0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" left="10" top="10"></Label>
+	<Label class="wfill h4" text="Delivery Days: 3 to 5 Days" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" left="10" top="10"></Label>
+	<View class="wfill" height="1" top="10" backgroundColor="black"></View>
+	<Label class="wfill h4" text="Total : RM 0000.00" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" left="10" top="10"></Label>
+	<View class="wfill" height="1" top="10" backgroundColor="black"></View>
+	<Button class="button" onClick="navToStep3" width="100" height="50" left="110" top="20">Next</Button>
+	</Window>
+</Alloy>

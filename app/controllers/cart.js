@@ -59,7 +59,7 @@ var rowdata = [];
 }
 
 function navToCheckOut(){
-	Alloy.Globals.Navigator.open("checkout");
+	Alloy.Globals.Navigator.open("personal_form");
 };
 
 function init(){	

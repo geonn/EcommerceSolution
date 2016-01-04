@@ -1,0 +1,22 @@
+<Alloy>
+	<Window class="vert" barColor="#75d0cb" id="win" title="Step 1" navBarHidden="false">
+	<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
+	<Label class="wfill h3" height="50" text="Personal Info" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" backgroundColor="black" color="white"></Label>
+	<ScrollView id="scrollView" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="true" height="Ti.UI.FILL" width="Ti.UI.FILL">
+	<View class="wfill hfill vert">
+		<Label class="wfill h4" text="Name" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" left="10" top="10"></Label>
+		<TextField id="textField" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" width="90%"  />
+		<Label class="wfill h4" text="Delivery Address" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" left="10" top="10"></Label>
+		<TextField id="textField" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" width="90%"  />
+		<TextField id="textField" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" width="90%"  />
+		<Label class="wfill h4" text="Postcode" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" left="10" top="10"></Label>
+		<TextField id="textField" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" width="50%"  />
+		<Label class="wfill h4" text="State" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" left="10" top="10"></Label>
+		<TextField id="textField" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" width="50%"  />
+		<Label class="wfill h4" text="H/P Number" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" left="10" top="10"></Label>
+		<TextField id="textField" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" width="90%"  />
+		<Button class="button" onClick="navToStep2" width="100" height="50" left="110" bottom="10">Next</Button> 
+	</View>
+	</ScrollView>
+	</Window>
+</Alloy>
