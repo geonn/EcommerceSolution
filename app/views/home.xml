@@ -10,9 +10,9 @@
 	    	<Button class="button" onClick="navToProfile" width="130" height="100" left="20" backgroundImage="/images/profile.png" color="black">Profile</Button> 
 	    	<Button class="button" onClick="doLogout" width="130" height="100">Logout</Button> 
     	</View>	
-    	<View class="wfill hsize horz">
+    	<!--<View class="wfill hsize horz">
 	    	<Button class="button" onClick="navToDemo" width="130" height="100" left="20">Multiple Select</Button>
-    	</View>
+    </View>-->
     </View>
     </Window>
 </Alloy>
